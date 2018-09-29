@@ -1,0 +1,9 @@
+pipeline:
+  build:
+    image: microsoft/dotnet:2.1.402-sdk
+    commands:
+      - cd drone-sample
+      - dotnet build
+      - cd drone-sample.Tests
+      - dotnet test
+
