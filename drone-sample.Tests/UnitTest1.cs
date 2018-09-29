@@ -10,5 +10,12 @@ namespace drone_sample.Tests
         {
 
         }
+
+
+
+[Fact]
+public void Hello_World(){
+    Assert.True(true);
+}
     }
 }
