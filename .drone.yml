@@ -4,6 +4,6 @@ pipeline:
     commands:
       - cd drone-sample
       - dotnet build
-      - cd drone-sample.Tests
+      - cd ../drone-sample.Tests
       - dotnet test
 
